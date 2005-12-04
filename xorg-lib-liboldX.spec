@@ -1,19 +1,19 @@
 Summary:	oldX library
 Summary(pl):	Biblioteka oldX
 Name:		xorg-lib-liboldX
-Version:	0.99.1
+Version:	0.99.2
 Release:	0.1
 License:	MIT
 Group:		X11/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/lib/liboldX-%{version}.tar.bz2
-# Source0-md5:	9185c9f553c73a4f59ceb2d917258164
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/lib/liboldX-%{version}.tar.bz2
+# Source0-md5:	cf3faee62f1682f3e305d3834bcde343
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	libtool
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libX11-devel
-BuildRequires:	xorg-util-util-macros
+BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
