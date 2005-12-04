@@ -23,8 +23,8 @@ oldX library.
 Biblioteka oldX.
 
 %package devel
-Summary:	Header files liboldX development
-Summary(pl):	Pliki nag³ówkowe do biblioteki liboldX
+Summary:	Header files for liboldX library
+Summary(pl):	Pliki nag³ówkowe biblioteki liboldX
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	xorg-lib-libX11-devel
@@ -33,7 +33,7 @@ Requires:	xorg-lib-libX11-devel
 oldX library.
 
 This package contains the header files needed to develop programs that
-use these liboldX.
+use liboldX.
 
 %description devel -l pl
 Biblioteka oldX.
