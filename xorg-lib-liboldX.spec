@@ -1,5 +1,5 @@
 Summary:	oldX library
-Summary(pl):	Biblioteka oldX
+Summary(pl.UTF-8):   Biblioteka oldX
 Name:		xorg-lib-liboldX
 Version:	1.0.1
 Release:	2
@@ -19,12 +19,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 oldX library.
 
-%description -l pl
+%description -l pl.UTF-8
 Biblioteka oldX.
 
 %package devel
 Summary:	Header files for liboldX library
-Summary(pl):	Pliki nag³ówkowe biblioteki liboldX
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki liboldX
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	xorg-lib-libX11-devel
@@ -35,15 +35,15 @@ oldX library.
 This package contains the header files needed to develop programs that
 use liboldX.
 
-%description devel -l pl
+%description devel -l pl.UTF-8
 Biblioteka oldX.
 
-Pakiet zawiera pliki nag³ówkowe niezbêdne do kompilowania programów
-u¿ywaj±cych biblioteki liboldX.
+Pakiet zawiera pliki nagÅ‚Ã³wkowe niezbÄ™dne do kompilowania programÃ³w
+uÅ¼ywajÄ…cych biblioteki liboldX.
 
 %package static
 Summary:	Static liboldX library
-Summary(pl):	Biblioteka statyczna liboldX
+Summary(pl.UTF-8):   Biblioteka statyczna liboldX
 Group:		X11/Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
@@ -52,10 +52,10 @@ oldX library.
 
 This package contains the static liboldX library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Biblioteka oldX.
 
-Pakiet zawiera statyczn± bibliotekê liboldX.
+Pakiet zawiera statycznÄ… bibliotekÄ™ liboldX.
 
 %prep
 %setup -q -n liboldX-%{version}
