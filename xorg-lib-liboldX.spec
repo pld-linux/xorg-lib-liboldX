@@ -1,5 +1,5 @@
 Summary:	oldX library
-Summary(pl.UTF-8):   Biblioteka oldX
+Summary(pl.UTF-8):	Biblioteka oldX
 Name:		xorg-lib-liboldX
 Version:	1.0.1
 Release:	2
@@ -24,7 +24,7 @@ Biblioteka oldX.
 
 %package devel
 Summary:	Header files for liboldX library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki liboldX
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki liboldX
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	xorg-lib-libX11-devel
@@ -43,7 +43,7 @@ używających biblioteki liboldX.
 
 %package static
 Summary:	Static liboldX library
-Summary(pl.UTF-8):   Biblioteka statyczna liboldX
+Summary(pl.UTF-8):	Biblioteka statyczna liboldX
 Group:		X11/Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
