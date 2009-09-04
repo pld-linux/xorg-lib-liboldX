@@ -5,7 +5,7 @@ Version:	1.0.1
 Release:	4
 License:	MIT
 Group:		X11/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/lib/liboldX-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/lib/liboldX-%{version}.tar.bz2
 # Source0-md5:	6b81ffe486d76c380d08f92285758d84
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
