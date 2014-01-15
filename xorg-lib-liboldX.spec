@@ -87,6 +87,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog
 %attr(755,root,root) %{_libdir}/liboldX.so.*.*.*
+%attr(755,root,root) %ghost %{_libdir}/liboldX.so.6
 
 %files devel
 %defattr(644,root,root,755)
